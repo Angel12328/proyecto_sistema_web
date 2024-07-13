@@ -1,10 +1,125 @@
+.sibaropen{
+  margin-left: 12rem;
+  transition: margin-left 0.3s ease;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+.sibarclose{
+  margin-right: 16rem;
+  transition: margin-left 0.3s ease;
+  height: 100%;
+  box-sizing: border-box;
+}
+.inf{
+  position: auto; /* Fija la posición del contenedor */
+  bottom: 0; /* Lo coloca en la parte inferior de la pantalla */
+  width: 100%; /* Ancho completo */
+  height: 100%;
+}
+
 .App {
   text-align: center;
+}
+.footerconteiner{
+  width: 50%;
+  height: 30%;
+}
+.sidbardim{
+  width: 50%;
+  height: 30%;
+  height: 100vh;
+}
+.tamanobotones{
+  width: 50%;
+  height: 30%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.contenedor1{
+  position: fixed;
+  top: 125px;
+  right: 20px;
+  border: 2px solid rgb(9, 22, 69);
+  border-radius: 10px; /* Borde redondeado */
+  width: 20%;
+  height: 38%;
+  background-color: rgba(240, 240, 240, 0.9); /* Color de fondo con transparencia */
+  padding: 20px;
+  z-index: 999;
+  box-sizing: border-box;
+  overflow-y: auto;
+
+}
+
+/* Estilos generales para los botones */
+button {
+  padding: 10px 20px; /* Ajusta el espaciado interno */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+  cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+  font-size: 16px; /* Tamaño del texto */
+  color: white; /* Color del texto */
+}
+
+/* Estilos para el botón "Estudiante" */
+button#estudiante {
+  background-color: #007bff; /* Color de fondo azul */
+}
+
+/* Estilos para el botón "Docente" */
+button#docente {
+  background-color: #28a745; /* Color de fondo verde */
+}
+
+/* Estilos para cuando se pasa el cursor sobre los botones */
+button:hover {
+  opacity: 0.8; /* Reduce la opacidad al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+
+.boton{
+  width: 50%;
+  height: 50%;
+}
+
+.perfil{
+  color: beige;
+  
+
+}
+.imgperf{
+  color: beige;
+  
+}
+.conteinerperf{
+  width: 3000px;
+}
+
+.contenedor2{
+  position: fixed;
+  top: 410px;
+  right: 20px;
+  border: 2px solid black;
+  width: 20%; /* Puedes ajustar el ancho según tus necesidades */
+  height: 38%; /* O ajusta la altura según tus necesidades */
+  background-color: #f0f0f0;
+  padding: 20px;
+  z-index: 999;
+  box-sizing: border-box;
+  overflow-y: auto;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

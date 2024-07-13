@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.inf{
+  position: auto; /* Fija la posición del contenedor */
+  bottom: 0; /* Lo coloca en la parte inferior de la pantalla */
+  width: 100%; /* Ancho completo */
+}

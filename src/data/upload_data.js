@@ -1,6 +1,6 @@
 const admin = require('firebase-admin');
 const serviceAccount = require("./key_service_account.json");
-const data = require("./dataEstudiantesP.json");
+//const data = require("./dataEstudiantesP.json");
 const collectionKey = "dataEstudiantes"; //Name of the collection
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
